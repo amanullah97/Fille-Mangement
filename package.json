@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-files-api",
+  "version": "1.0.0",
+  "main": "bb.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/busboy": "^1.5.4",
+    "@types/multer": "^1.4.12",
+    "body-parser": "^1.20.3",
+    "busboy": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "formidable": "^3.5.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/formidable": "^3.4.5",
+    "@types/node": "^22.10.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
